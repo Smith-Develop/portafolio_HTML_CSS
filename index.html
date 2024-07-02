@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Smith Grisales | Desarrollador Web</title>
+    <meta name="description" content="Desarrollador web Full Stack. Todas tus ideas pueden ser realidad, el límite es el cielo. ¡Contáctame y haz crecer tu negocio online!">
+    <link rel="icon" href="assets\images\favicon.png" sizes="40x40" type="image/png">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/ddf156925c.js" crossorigin="anonymous"></script>
 </head>
@@ -13,7 +15,8 @@
     <header>
         <nav>
             <div class="logo">
-                <svg xmlns="http://www.w3.org/2000\svg" xmlns:xlink="http://www.w3.org/1999\xlink" width="150"
+                <a href="#home">
+                    <svg xmlns="http://www.w3.org/2000\svg" xmlns:xlink="http://www.w3.org/1999\xlink" width="150"
                     zoomAndPan="magnify" viewBox="0 0 112.5 44.999999" height="60" preserveAspectRatio="xMidYMid meet"
                     version="1.0">
                     <defs>
@@ -100,6 +103,7 @@
                         </g>
                     </g>
                 </svg>
+                </a>
             </div>
             <input type="checkbox" id="sidebar-active">
             <label for="sidebar-active" class="btn-open"><svg xmlns="http://www.w3.org/2000\svg" height="60px"
@@ -116,18 +120,18 @@
                     </svg>
                 </label>
                 <ul>
-                    <li>Servicios</li>
-                    <li>Proyectos</li>
-                    <li>Curriculum</li>
-                    <li>Habilidades</li>
-                    <li>Testimonios</li>
-                    <button class="btn btn-contact">Contactame</button>
+                    <li><a href="#servicios" >Servicios</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#curriculum">Curriculum</a></li>
+                    <li><a href="#habilidade">Habilidades</a></li>
+                    <li><a href="#testimonios">Testimonios</a></li>
+                    <button class="btn btn-contact" onclick="window.location.href='https://bit.ly/ContactoDevSmith'">Contactame</button>
                 </ul>
             </div>
         </nav>
     </header>
     <main class="container">
-        <section class="home">
+        <section class="home" id="home">
             <div class="container-home">
                 <div class="home1">
                     <h2>Hola, soy Smith</h2>
@@ -141,8 +145,8 @@
                             <button class=" btn-transparent btn ">Download CV</button>
                         </div>
                         <div class="social">
-                            <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
-                            <a href=""><i class="fa-brands fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/jhon-smith-grisales-chica-93770a2b7/"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="https://github.com/Yamete-Kudasai"><i class="fa-brands fa-github"></i></a>
                         </div>
                     </div>
                 </div>
@@ -171,7 +175,7 @@
                 </div>
             </div>
         </section>
-        <section class="servicios">
+        <section class="servicios" id="servicios">
             <div class="content-services">
                 <div class="tittle-section-services">
                     <h3>Mis servicios</h3>
@@ -234,7 +238,7 @@
                 </div>
             </div>
         </section>
-        <section class="proyectos">
+        <section class="proyectos" id="proyectos">
             <div class="content-proyectos">
                 <h3>Ultimos Proyectos</h3>
                 <p>Dale un vistazo a mi trabajo</p>
@@ -300,7 +304,7 @@
                 </div>
             </div>
         </section>
-        <section class="curriculum">
+        <section class="curriculum" id="curriculum">
             <div class="content-curriculum">
                 <div class="curriculum-letf">
                     <h3><i class="fa-solid fa-award"></i> Experiencia</h3>
@@ -357,7 +361,7 @@
                 </div>
             </div>
         </section>
-        <section class="habilidades">
+        <section class="habilidades" id="habilidades">
             <div class="content-habilidades">
                 <div class="tittle-section-services">
                     <h3>Mis habilidades</h3>
@@ -409,7 +413,7 @@
                 </div>
             </div>
         </section>
-        <section class="testimonios">
+        <section class="testimonios" id="testimonios">
             <div class="content-testimonios">
                 <div class="testimonios-left">
                     <h3>Esto dicen mis clientes</h3>
@@ -457,7 +461,7 @@
                 </div>
             </div>
         </section>
-        <section class="contacto">
+        <section class="contacto" id="contacto">
             <div class="content-contacto">
                 <div class="contacto-left">
                     <div class="form">
@@ -483,7 +487,7 @@
                 </div>
                 <div class="contacto-right">
                     <div class="info-contacto">
-                        <a href="">
+                        <a href="tel:+34613203129">
                             <i class="fa-solid fa-phone"></i>
                             <div class="text-info-contacto">
                                 <p class="tittle-text-contacto">
@@ -496,7 +500,7 @@
                         </a>
                     </div>
                     <div class="info-contacto">
-                        <a href="">
+                        <a href="mailto:developers.smith@gmail.com">
                             <i class="fa-solid fa-envelope"></i>
                             <div class="text-info-contacto">
                                 <p class="tittle-text-contacto">
@@ -509,7 +513,7 @@
                         </a>
                     </div>
                     <div class="info-contacto">
-                        <a href="">
+                        <a href="https://maps.app.goo.gl/dNXc2DSBfCHEDQJBA">
                             <i class="fa-solid fa-location-dot"></i>
                             <div class="text-info-contacto">
                                 <p class="tittle-text-contacto">
