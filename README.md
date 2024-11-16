@@ -1,7 +1,7 @@
 Portafolio maquetado en HTML Y CSS con preprocesador SASS
 
-DEMO
-https://yamete-kudasai.github.io/portafolio_HTML_CSS/
+DEMO[
+https://smith-develop.github.io/portafolio_HTML_CSS/](https://smith-develop.github.io/portafolio_HTML_CSS/)
 
 
 Desktop
