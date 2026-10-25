@@ -11,6 +11,8 @@ HTML, CSS y JavaScript sin dependencias ni paso de compilación: carga rápido y
 ```
 index.html            Página única: hero, proyectos, servicios, stack, trayectoria, FAQ y contacto
 404.html              Página de error
+tpv-restaurantes-madrid.html, software-verifactu-a-medida.html, crm-whatsapp-business.html
+                      Páginas de servicio (una por búsqueda objetivo)
 assets/css/styles.css Estilos (tokens de color en :root)
 assets/js/main.js     Menú móvil, filtro de proyectos, animaciones y formulario
 assets/img/           Foto, imagen para redes (og-image.jpg) e iconos

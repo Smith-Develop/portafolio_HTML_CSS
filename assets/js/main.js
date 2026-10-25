@@ -26,7 +26,7 @@ document.addEventListener("keydown", (e) => {
 });
 
 // Enlace activo según la sección visible
-const navLinks = [...document.querySelectorAll(".nav-links a")];
+const navLinks = [...document.querySelectorAll('.nav-links a[href^="#"]')];
 const sections = navLinks.map((a) => document.querySelector(a.getAttribute("href"))).filter(Boolean);
 const sectionObserver = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
@@ -85,11 +85,11 @@ document.querySelectorAll("[data-copy]").forEach((btn) => {
 
 // Formulario: compone el mensaje y lo abre en el correo o en WhatsApp
 const form = document.getElementById("contact-form");
-const status = form.querySelector(".form-status");
+const status = form?.querySelector(".form-status");
 const EMAIL = "developers.smith@gmail.com";
 const WHATSAPP = "34613203129";
 
-form.addEventListener("submit", (e) => {
+form?.addEventListener("submit", (e) => {
   e.preventDefault();
   const fields = [...form.querySelectorAll("[required]")];
   let firstInvalid = null;
@@ -120,7 +120,7 @@ form.addEventListener("submit", (e) => {
   else window.location.href = url;
 });
 
-form.addEventListener("input", (e) => {
+form?.addEventListener("input", (e) => {
   if (e.target.getAttribute("aria-invalid") === "true" && e.target.checkValidity()) {
     e.target.setAttribute("aria-invalid", "false");
   }
