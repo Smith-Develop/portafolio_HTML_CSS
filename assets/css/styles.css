@@ -657,6 +657,7 @@ button, input, select, textarea { font: inherit; color: inherit; }
 /* ---------- Trayectoria ---------- */
 .timeline-wrap { display: grid; grid-template-columns: 1.3fr 1fr; gap: 56px; }
 .timeline-title { font-size: 1.1rem; margin-bottom: 24px; }
+.timeline-title--spaced { margin-top: 48px; margin-bottom: 16px; }
 .timeline { position: relative; display: grid; gap: 28px; padding-left: 28px; }
 .timeline::before {
   content: "";
